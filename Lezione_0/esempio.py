@@ -1,0 +1,1 @@
+#Istanzia 3 variabili con il tuo nome, il tuo cognome e la tua età. Stampa queste 3 variabili con un print in console
