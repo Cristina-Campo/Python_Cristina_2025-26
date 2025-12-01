@@ -1,4 +1,4 @@
-# Esercizi
+# Esercizi Prova
 ### Esercizio 1
 Stampa, in console, il tuo nome e il tuo cognome raccogliendoli con un input. Utilizza 2 variabili distinte e separate
 
