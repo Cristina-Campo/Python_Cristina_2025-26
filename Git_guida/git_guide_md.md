@@ -130,7 +130,7 @@ git push origin main
 git push -u origin main       # Prima volta (imposta upstream)
 ```
 
-## Operazioni utili
+## Operazioni utili e inutili
 
 ### Annullare modifiche non committate
 ```bash
