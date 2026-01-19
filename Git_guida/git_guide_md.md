@@ -1,6 +1,6 @@
 # Guida completa a Git su Linux
 
-## Installazione di Git
+## Installazione di Git e prova
 
 ### Su distribuzioni basate su Debian/Ubuntu
 ```bash
