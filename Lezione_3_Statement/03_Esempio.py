@@ -22,8 +22,14 @@ else:
 # 2 aria mediocre (pm10 > 40 oppure pm25 > 20)
 # 3 aria buona
 
-pm10 = 40
-pm2_5 = 30
-ozono = 140
+pm10 = 30
+pm2_5 = 14
+ozono = 80
 temp = 6
 
+if (pm10 >= 50 or pm2_5 >= 25) and (ozono >= 100 or temp >= 30):
+    print("Aria PESSIMA. Att: evitare di stare all'aperto")
+elif pm10 >= 40 or pm2_5 >= 20:
+    print("Aria Mediocre")
+else:
+    print("Aria Buona")
