@@ -5,3 +5,14 @@
 #4. Contare quanti sono i prodotti presenti
 #5. Mostrare solo i prodotti con più di 5 lettere
 #6. Creare una nuova lista di prodotti con i precedenti ma in maiuscolo
+
+lista = ["dario", "cristina", "marco"]
+cosaDaCercare = input("Cosa vuoi cercare ? ")
+
+for i in range(len(lista)):
+    if cosaDaCercare == lista[i]:
+        print("Trovato")
+
+for cosa in lista:
+    if cosa == cosaDaCercare:
+        print("Trovato")
