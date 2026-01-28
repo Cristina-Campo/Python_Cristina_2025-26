@@ -7,6 +7,7 @@
 #6. Creare una nuova lista di prodotti con i precedenti ma in maiuscolo
 #7. Aggiungi un prodotto alla lista chiedendo all'utente il nome del prodotto
 #8. Rimuovi un prodotto a scelta dell'utente
+#9. Tutto questo fallo inun menu dal quale l'utente seleziona i comandi
 
 lista = ["dario", "cristina", "marco"]
 cosaDaCercare = input("Cosa vuoi cercare ? ")
