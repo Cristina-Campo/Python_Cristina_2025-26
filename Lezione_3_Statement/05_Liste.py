@@ -30,13 +30,56 @@ print(f"ultimo studente dell'elenco è {ultimoStud} ma non per importanza")
 
 #Per poter stampare tutti gli elementi uno alla volta uso il FORIN
 # stud è una var locale che crei al volo nel costrutto 
-for stud in studenti:
-    print(stud)
+for studente in studenti:
+    print(studente)
 
 
 # Scorrere con un indice
 #           0          1       2       3        4  
 colori = ["rosso", "giallo", "blu", "nero", "bianco"]
 
+# Modificare un elemento della lista oppure modificare la lista
+# trasformo in viola il colore blu
+colori[2] = "viola"
+
+# aggiungo un colore alla lista (al fondo)
+colori.append("arancione")
+
+# aggiungo un elemento in una posizione
+colori.insert(2, "blu")
+colori.insert(0, "azzurro")
+
+# rimuovo un colore
+colori.pop() # senza numeri rimuove sempre l'ultimo elemento
+colori.pop(1) #rimuove il colore nella posizione che li stiamo passando
+colori.remove("giallo")
+
+# metodi vari
+colori.reverse() #inverte la lista
+colori.sort() #mette in ordine alfabetico crescente
+
+
 for i in range(len(colori)):
-    print(f"posizione {i+1} - colore {colori[i]}")
+    print(f"posizione {i} - colore {colori[i]}")
+
+
+# altri metodi con liste di numeri
+numeri = [4,8,100,9,3,21,1]
+
+print(max(numeri))
+print(min(numeri))
+print(len(numeri))
+print(sum(numeri))
+
+totale = 0
+i = 0
+
+for num in numeri:
+    i += 1
+    totale += num
+    print("parziale:", i, " = ", totale)
+
+print(totale)
+
+
+#WHILE - BREAK - CONTINUE

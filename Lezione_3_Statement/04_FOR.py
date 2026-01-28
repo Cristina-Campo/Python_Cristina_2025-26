@@ -4,7 +4,7 @@
 for i in range(5):
     print("Ciao",i)
 
-for i in range(0,46, 4):
+for i in range(20,46,2):
     print(i)
 
 #Stampa tutti i numeri da 1 a 100. Quando stampi un multiplo di 3 stampa Zoom, quando stampa un multipli di 5 stampa Boom, quando stampi un multiplo di 3 e di 5 stampa Bangherang

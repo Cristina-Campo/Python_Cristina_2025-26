@@ -5,6 +5,8 @@
 #4. Contare quanti sono i prodotti presenti
 #5. Mostrare solo i prodotti con più di 5 lettere
 #6. Creare una nuova lista di prodotti con i precedenti ma in maiuscolo
+#7. Aggiungi un prodotto alla lista chiedendo all'utente il nome del prodotto
+#8. Rimuovi un prodotto a scelta dell'utente
 
 lista = ["dario", "cristina", "marco"]
 cosaDaCercare = input("Cosa vuoi cercare ? ")
