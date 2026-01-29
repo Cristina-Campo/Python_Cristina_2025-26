@@ -23,3 +23,5 @@ while scelta != 4:
         print( "Non ho capito la scelta!! ")
 
 print("Programma terminato")
+
+# Testo di fine file
