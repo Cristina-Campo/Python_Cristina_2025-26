@@ -32,6 +32,13 @@ def gioco_impiccato():
         if not parolaARR.__contains__(letteraCercata):
             tentativi += 1
             print(f"Ti restano {6 - tentativi} tentativi")
+        
+        parolaUnita = "".join(arrayVuoto)
+        print(parolaUnita)
+        
+        if(parolaUnita == parola):
+            print("Bravo, hai trovato la parola")
+            break
 
 
 def pulisci():
