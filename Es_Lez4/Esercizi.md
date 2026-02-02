@@ -22,3 +22,5 @@ Utilizzando un menu crea il seguente gioco:
 Ogni volta che l'utente inserisce un numero suggerisci se questo è troppo alto o troppo basso rispetto a quello da indovinare.
 Attenzione: il numero da indovinare deve essere scelto in modo random
 
+
+# LEZIONE IN PAUSA FINO ALLE 18:50
