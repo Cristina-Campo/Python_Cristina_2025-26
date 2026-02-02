@@ -31,7 +31,7 @@ while(tentativi <= 6):
     
     parolaUnita = "".join(arrayVuoto)
     print(parolaUnita)
-    
+
     if(parolaUnita == parola):
         print("Bravo, hai trovato la parola")
         break
