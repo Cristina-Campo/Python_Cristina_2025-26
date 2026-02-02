@@ -1,4 +1,5 @@
 import os
+import time
 
 # definisco la funzione per il gioco dell'impiccato
 def gioco_impiccato():
@@ -63,6 +64,7 @@ while scelta != 4:
         gioco_impiccato()
     elif scelta == 2:
         print("Stai lanciando i dadi...")
+        time.sleep(2)
     elif scelta == 3:
         print("Stai giocando a solitario")
     elif scelta == 4:
