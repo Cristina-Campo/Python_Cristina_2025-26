@@ -19,6 +19,5 @@ password = "1235"
 if( username == "admin" or username == "dario.mennillo@email.com") and password == "12345":
     print("Benvenuto nella piattaforma")
 else:
-    print("Mi spiace, c'è qualcosa che non va");
-    print("Mi spiace, c'è qualcosa che non va");
-
+    print("Mi spiace, c'è qualcosa che non va")
+    print("Mi spiace, c'è qualcosa che non va")

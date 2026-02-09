@@ -36,6 +36,10 @@ mod4 = 255 % 5
 print(mod4)
 
 #Altri operatori
+# += Incremento
+miaVar = 0
+miaVar += 3 # miaVar = miaVar + 3
+
 # ** elevamento a potenza
 pow1 = 4 ** 6
 print(pow1)
